@@ -1,0 +1,113 @@
+@media (max-width: 750px) {
+
+    .padding {
+        padding: 0 5em;
+    }
+
+    .heading {
+        margin-top: 0;
+        font-size: 3em;
+        padding: 0;
+    }
+
+    .navbar {
+        padding: 0 1em;
+        width: 100vw;
+    }
+
+    .nav-links {
+        padding: 10px;
+    }
+
+    .nav-tabs {
+        display: none;
+    }
+
+    .goto-top {
+        right: 24px;
+        width: 25px;
+        height: 25px;
+    }
+
+    .goto-top-icon {
+        font-size: 2em;
+    }
+
+    .intro {
+        padding: 0 2em;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        padding: 4.3em;
+    }
+
+    .intro-left {
+        margin-top: 22em;
+    }
+
+    .intro-right {
+        margin-top: -44em;
+    }
+
+    .intro-mypic img {
+        width: 13em;
+        box-shadow: none;
+    }
+
+    .intro-lorem {
+        margin-inline: 79px;
+    }
+
+    .about-wrapper {
+        height: 125vh;
+    }
+
+    .timeline-dot {
+        left: 0;
+    }
+
+    .timeline-item:nth-child(odd),
+    .timeline-item:nth-child(even) {
+        padding-left: 37px;
+        padding-right: 0;
+        text-align: left;
+    }
+
+    .timeline-content h3,
+    .timeline-content p {
+        text-align: left;
+    }
+
+    .timeline-items::before {
+        left: 7px;
+    }
+
+    .service-box {
+        width: 250px;
+    }
+
+    .services-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+
+
+
+    .testimonials .wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .contact {
+        padding: 0 7em;
+    }
+
+    .contact form {
+        flex-direction: column;
+    }
+
+    .footer {
+        padding: 2rem 3%;
+    }
+}
