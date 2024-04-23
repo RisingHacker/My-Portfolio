@@ -11,5 +11,16 @@
 }
 
 .padding {
-    padding: 0 5em;
+    padding: 0 10em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.heading {
+    text-align: center;
+    font-size: 5em;
+    margin-top: 1em;
+    padding-bottom: 0.5em;
 }
